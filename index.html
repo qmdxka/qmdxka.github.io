@@ -1,19 +1,52 @@
-
-<!DOCTYPE html>         
- <html lang="en">
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport">
-    <meta name="keywords" content="陈钦宇，小王子">
-    <meta name="description" content = "陈钦宇是一位非常棒的小姑娘，大家要多多支持她哟">
-    <meta name = "author" content="陈钦宇">
-    <title>Qinyu's Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="陈钦宇，小王子，个人主页">
+    <meta name="description" content="陈钦宇的小王子主题个人主页">
+    <meta name="author" content="陈钦宇">
+    <title>Qinyu's Little Planet</title>
+    <link rel="stylesheet" href="./styles/main.css">
 </head>
 
 <body>
-    <h1>Hello World</h1>
-    <p>Good morning</p>
-    <img src="./Components/pictures/qinyuchen.jpeg" alt="logo" width="150px" height="150px">
-    <a href="https://y.qq.com/n/ryqq/songDetail/000xLcK800XTjr" target="_blank">小王子</a>
+    <main class="page">
+        <div class="planet" aria-hidden="true"></div>
+        <section class="hero">
+            <div class="profile">
+                <img class="avatar" src="./Components/pictures/qinyuchen.jpeg" alt="陈钦宇的头像">
+                <div>
+                    <p class="eyebrow">欢迎来到我的小星球</p>
+                    <h1>Qinyu's Little Planet</h1>
+                </div>
+            </div>
+
+            <p class="intro">
+                这里是陈钦宇的个人主页。现在它还是一颗刚刚被点亮的小星球，
+                以后可以慢慢放进喜欢的歌、照片、日记、作品，还有所有闪闪发光的想法。
+            </p>
+
+            <p class="quote" id="quote">
+                “真正重要的东西，用眼睛是看不见的。”<br>
+                所以这个网页先从一片星空开始。
+            </p>
+
+            <div class="actions">
+                <a class="button" href="https://y.qq.com/n/ryqq/songDetail/000xLcK800XTjr" target="_blank" rel="noreferrer">
+                    听《小王子》
+                </a>
+                <a class="button secondary" href="https://github.com/qmdxka" target="_blank" rel="noreferrer">
+                    看看我的 GitHub
+                </a>
+                <button class="button secondary" type="button" id="change-quote">
+                    换一句话
+                </button>
+            </div>
+        </section>
+        <div class="rose" aria-hidden="true"></div>
+    </main>
+
+    <script src="./scripts/main.js"></script>
 </body>
 </html>
