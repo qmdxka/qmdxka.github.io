@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import avatarImage from "../Components/pictures/qinyuchen.jpeg";
 
 const quotes = [
   {
@@ -36,7 +37,7 @@ function App() {
         <div className="profile">
           <img
             className="avatar"
-            src="/Components/pictures/qinyuchen.jpeg"
+            src={avatarImage}
             alt="陈钦宇的头像"
           />
           <div>
